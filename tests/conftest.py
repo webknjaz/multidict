@@ -18,6 +18,8 @@ from multidict import (
     MutableMultiMapping,
 )
 
+pytest_plugins = ("pytester",)
+
 C_EXT_MARK = pytest.mark.c_extension
 
 
